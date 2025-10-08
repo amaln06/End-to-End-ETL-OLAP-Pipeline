@@ -12,8 +12,8 @@ This project focuses on developing a complete ETL (Extract, Transform, Load) pip
 
 ### Tools & Technologies
 
-Microsoft SSIS
-SQL Server
-SSAS (SQL Server Analysis Services)
-OLAP Cubes
-ETL Workflow Automation 
+1. Microsoft SSIS
+2. SQL Server
+3. SSAS (SQL Server Analysis Services)
+4. OLAP Cubes
+5. ETL Workflow Automation 
