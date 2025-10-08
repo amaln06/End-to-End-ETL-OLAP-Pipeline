@@ -1,7 +1,7 @@
-# Project Overview
+## Project Overview
 This project focuses on developing a complete ETL (Extract, Transform, Load) pipeline using Microsoft SSIS. The goal was to build automated workflows to extract data from multiple sources, clean and transform it, and load it into structured formats for analytical use.
 
-Key Tasks Performed
+## Key Tasks Performed
 
 1. Extracted data from multiple CSV files and loaded it into new CSV outputs through ETL workflows.
 2. Combined and transformed data from multiple CSV sources, then pushed the results into SQL Server.
