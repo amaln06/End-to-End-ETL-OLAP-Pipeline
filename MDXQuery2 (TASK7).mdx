@@ -1,0 +1,5 @@
+SELECT
+    TopCount([Dim Product].[English Product Name].Members, 5, [Measures].[Units Balance]) ON ROWS,
+    [Measures].[Units Balance] ON COLUMNS
+FROM
+    [Adventure Works DW2019]

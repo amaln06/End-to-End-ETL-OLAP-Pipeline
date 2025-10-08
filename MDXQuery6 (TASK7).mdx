@@ -1,0 +1,13 @@
+WITH MEMBER [Measures].[Inventory Summary] AS
+    Aggregate(
+        {
+            [Dim Date].[Calendar Year].&[2011],
+            [Dim Date].[Calendar Year].&[2012],
+			[Dim Date].[Calendar Year].&[2014]
+        },
+        [Measures].[Units Balance]
+    )
+SELECT
+    [Measures].[Inventory Summary] ON COLUMNS
+FROM
+    [Adventure Works DW2019]

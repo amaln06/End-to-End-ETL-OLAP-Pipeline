@@ -1,0 +1,8 @@
+SELECT
+    CrossJoin(
+        [Dim Date].[Calendar Year].Members,
+        [Dim Product].[English Product Name].Members
+    ) ON ROWS,
+    [Measures].[Units Balance] ON COLUMNS
+FROM
+    [Adventure Works DW2019]

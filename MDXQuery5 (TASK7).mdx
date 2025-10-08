@@ -1,0 +1,6 @@
+SELECT
+    Order([Dim Product].[English Product Name].Members, [Measures].[Units Balance], 
+	DESC) ON ROWS,
+    [Measures].[Units Balance] ON COLUMNS
+FROM
+    [Adventure Works DW2019]
